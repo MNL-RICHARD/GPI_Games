@@ -975,8 +975,12 @@ h1 {
   width: 20%!important;
 }
 
+.gamesImageSmall3{
+  width: 10%!important;
+}
+
 .gamesImageLarge{
-  width: 100%!important;
+  width: 80%!important;
 }
 
 .dropdown-menu{

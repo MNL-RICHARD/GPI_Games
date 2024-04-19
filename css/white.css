@@ -966,3 +966,15 @@ h1 {
     min-width: 8rem!important;
 
 }
+
+.gamesImageSmall{
+  width: 50%!important;
+}
+
+.gamesImageSmall2{
+  width: 20%!important;
+}
+
+.gamesImageLarge{
+  width: 100%!important;
+}

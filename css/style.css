@@ -133,7 +133,6 @@ body {
 
 
 .form-control{
-    border-radius:1rem!important;
 }
 
 
@@ -143,7 +142,7 @@ body {
 
 
 #content p {
-    margin-bottom: 30px!important;
+    margin-bottom: 0;
 }
 
 .search-group select{
@@ -280,7 +279,7 @@ table img {
 
 
 .btn:not(:disabled):not(.disabled){
-  color: black;
+  color: green;
 }
 .btn-success.disabled, .btn-success:disabled {
     color: #000!important;

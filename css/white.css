@@ -2185,6 +2185,9 @@ footer {
         text-align: center!important
     }
 
+
+}
+
 .game_name {
     font-size: 1rem;
     display: block;
@@ -2197,5 +2200,4 @@ footer {
     margin-bottom: 1rem!important;
     line-height: 1rem;
 
-}
 }

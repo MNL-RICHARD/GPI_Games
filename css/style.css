@@ -137,7 +137,7 @@ body {
 
 
 #content img{
-  border-radius:10px!important;
+  /*border-radius:10px!important;*/
 }
 
 
@@ -213,7 +213,8 @@ table img {
 
 #bttbutton {
   display: inline-block;
-  background-color: #000;
+  /*background-color: #000;*/
+  background-color: transparent;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -225,7 +226,7 @@ table img {
     opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
-  z-index: 1000;
+  z-index: 1;
 }
 #bttbutton::after {
   content: "\f077";
@@ -235,13 +236,15 @@ table img {
   font-size: 2em;
   line-height: 50px;
   color: #A8C62C;
+  position: relative;
+  bottom: -20px;
 }
 #bttbutton:hover {
   cursor: pointer;
-  background-color: #5d5d5d;
+  /*background-color: #5d5d5d;*/
 }
 #bttbutton:active {
-  background-color: #5d5d5d;
+  /*background-color: #5d5d5d;*/
 }
 #bttbutton.show {
   opacity: 1;
@@ -378,6 +381,20 @@ table img{
     
     border-top:0!important;
 }
+
+#bttbutton::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 50px;
+  color: #A8C62C;
+  position: relative;
+  bottom: -25px;
+  right: -20px;
+}
+
 }
 
 @media screen and (max-width: 992px) {

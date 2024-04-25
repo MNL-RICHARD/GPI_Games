@@ -10447,7 +10447,7 @@ a.text-dark:focus,a.text-dark:hover {
 }*/
 
 .game_name {
-font-size: 0.5rem !important;
+font-size: 0.65rem !important;
     display: block;
     width: 100%;
     height: 1rem;
@@ -10455,14 +10455,15 @@ font-size: 0.5rem !important;
     color: black;
     text-align: center;
     margin-top: 0.1rem;
-    margin-bottom: 0.2rem !important;
+    margin-bottom: 0.3rem !important;
     line-height: 0.5rem;
 }
 
 
 
     .pt-4, .py-4 {
-    padding-top: 0.1rem !important;
+    padding-top: 0.6rem !important;
+
 }
 .pb-4, .py-4 {
     padding-bottom: 0.2rem !important;

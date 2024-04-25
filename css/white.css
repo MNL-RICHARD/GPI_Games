@@ -2218,6 +2218,6 @@ footer {
 
 .page-header {
 
-  height: 3rem;
+  height: 3rem!important;
 
 }

@@ -884,6 +884,12 @@ h1 {
   .table td {
     text-align: left;
   }
+
+  button#languageDropdown {
+    margin: 1rem;
+    width: 6rem!important;
+    font-size: 0.5rem;
+}
 }
 
 /*Extra Small Devices, Phones*/
@@ -939,11 +945,7 @@ h1 {
     /*border-radius: .25rem;*/
 }
 
-button#languageDropdown {
-    margin: 1rem;
-    width: 6rem!important;
-    font-size: 0.5rem;
-}
+
 
 .dropdown-item {
     display: block;
@@ -1004,6 +1006,7 @@ button#languageDropdown {
     margin: 15px;
     border: 1px solid black;
     background-color: white;
+    width: 10rem;
   }
 
 
@@ -2199,5 +2202,22 @@ footer {
     margin-top: .5rem;
     margin-bottom: 1rem!important;
     line-height: 1rem;
+
+}
+
+footer {
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.paginationCustom {
+  margin-bottom: 70px;
+}
+
+.page-header {
+
+  height: 3rem;
 
 }

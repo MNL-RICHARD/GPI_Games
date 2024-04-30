@@ -10478,3 +10478,8 @@ font-size: 0.5rem !important;
       .content {
         flex: 1;
     }
+
+
+#content p {
+    margin-bottom: 1rem;
+}

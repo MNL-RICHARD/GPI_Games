@@ -10419,7 +10419,7 @@ a.text-dark:focus,a.text-dark:hover {
 }
 
 #content p {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     font-size: .50rem;
 }
 
